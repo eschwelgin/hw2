@@ -1,7 +1,9 @@
+/* add background image */
 body {
     background-image: url(images/marblebackground.jpg)
 }
 
+/* style navigation */
 nav h1 {
     float: left;
     color: #ffffff;
@@ -20,6 +22,7 @@ nav a {
     text-decoration: none;
 }
 
+/* custom style for responsive grid */
 .col-sm-12 {
     background-color: white;
     border: 2px solid black;
@@ -27,6 +30,7 @@ nav a {
     margin: 20px 0px 0px 0px;
 }
 
+/* image classes */
 .responsive {
     max-width: 40%;
     padding: 0px 10px 10px 0px;
@@ -36,6 +40,7 @@ nav a {
     float: left;
 } 
 
+/* style bootstrap footer */
 footer {
     text-align: center;
     background-color: grey;
@@ -44,4 +49,24 @@ footer {
     left: 0;
     width: 100%;
     border-top: 4px solid teal;
+}
+
+/* style nav links */
+a + a {
+    border-right: 2px solid #dddddd;
+}
+
+nav a:hover{
+    background-color: #777;
+    color: white;
+}
+
+nav a:focus{
+    background-color: #555;
+    color: white;
+}
+
+nav a:active{   
+    background-color: #333;
+    color: white;
 }
